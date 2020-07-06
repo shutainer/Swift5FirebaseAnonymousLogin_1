@@ -40,7 +40,7 @@ class InPutViewController: UIViewController, UIImagePickerControllerDelegate, UI
         UserDefaults.standard.set(data, forKey: "userImage")
         
         let nextVC = self.storyboard?.instantiateViewController(identifier: "nextVC") as! NextViewController
-        self.navigationController?.pushViewController(NextViewController, animated: true)
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -106,7 +106,7 @@ class InPutViewController: UIViewController, UIImagePickerControllerDelegate, UI
         }
         
         let action2 = UIAlertAction(title: "アルバム", style: .default) { (alert) in
-            self.doAlbu()
+            self.doAlbum()
         }
         
         let action3 = UIAlertAction(title: "キャンセル", style: .cancel)

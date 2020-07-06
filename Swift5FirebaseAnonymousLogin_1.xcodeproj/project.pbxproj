@@ -16,6 +16,7 @@
 		7323691924ADBE76004C7A8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7323691824ADBE76004C7A8C /* GoogleService-Info.plist */; };
 		732A16F824AEFDE8001A56B4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A16F724AEFDE8001A56B4 /* NextViewController.swift */; };
 		732A16FA24AF7A08001A56B4 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A16F924AF7A08001A56B4 /* Contents.swift */; };
+		737DD55C24B34670002A6A15 /* EditAndPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737DD55B24B34670002A6A15 /* EditAndPostViewController.swift */; };
 		738951FF24ADC64A00FF4C0A /* TourokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738951FE24ADC64A00FF4C0A /* TourokuViewController.swift */; };
 		7389520124ADCF6500FF4C0A /* InPutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389520024ADCF6500FF4C0A /* InPutViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		7323691824ADBE76004C7A8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		732A16F724AEFDE8001A56B4 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		732A16F924AF7A08001A56B4 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		737DD55B24B34670002A6A15 /* EditAndPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAndPostViewController.swift; sourceTree = "<group>"; };
 		738951FE24ADC64A00FF4C0A /* TourokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourokuViewController.swift; sourceTree = "<group>"; };
 		7389520024ADCF6500FF4C0A /* InPutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InPutViewController.swift; sourceTree = "<group>"; };
 		D43929609369B80F36144163 /* Pods-Swift5FirebaseAnonymousLogin_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5FirebaseAnonymousLogin_1.release.xcconfig"; path = "Target Support Files/Pods-Swift5FirebaseAnonymousLogin_1/Pods-Swift5FirebaseAnonymousLogin_1.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				738951FE24ADC64A00FF4C0A /* TourokuViewController.swift */,
 				7389520024ADCF6500FF4C0A /* InPutViewController.swift */,
 				732A16F724AEFDE8001A56B4 /* NextViewController.swift */,
+				737DD55B24B34670002A6A15 /* EditAndPostViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				732A16F824AEFDE8001A56B4 /* NextViewController.swift in Sources */,
 				732A16FA24AF7A08001A56B4 /* Contents.swift in Sources */,
 				7323690224ADB77B004C7A8C /* AppDelegate.swift in Sources */,
+				737DD55C24B34670002A6A15 /* EditAndPostViewController.swift in Sources */,
 				738951FF24ADC64A00FF4C0A /* TourokuViewController.swift in Sources */,
 				7323690424ADB77B004C7A8C /* SceneDelegate.swift in Sources */,
 				7389520124ADCF6500FF4C0A /* InPutViewController.swift in Sources */,
